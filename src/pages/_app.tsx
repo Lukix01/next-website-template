@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             <Head>
                 <title>lklos-website-template</title>
             </Head>
-            <Component {...pageProps} />;
+            <Component {...pageProps} />
         </>
     );
 }
